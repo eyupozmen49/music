@@ -3,7 +3,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 
 from config import BOT_USERNAME, BOT_NAME as bot
 from helpers.filters import command, other_filters2
-# Star Müzik tarafından düzenlendi. 
+# Şarkılardan Kesitlerim Müzik tarafından düzenlendi. 
 
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
@@ -27,7 +27,7 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧑🏻‍💻 ɢɪᴛʜᴜʙ ᴋᴀʏɴᴀᴋ ᴋᴏᴅᴜ 🧑🏻‍💻", url="https://github.com/eyupozmen49/music"
+                        "🧑🏻‍💻 ɢɪᴛʜᴜʙ ᴋᴀʏɴᴀᴋ ᴋᴏᴅᴜ 🧑🏻‍💻", url="https:/"
                     )
                 ]
                 
@@ -79,7 +79,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧑🏻‍💻 ɢɪᴛʜᴜʙ ᴋᴀʏɴᴀᴋ ᴋᴏᴅᴜ 🧑🏻‍💻", url="https://github.com/eyupozmen49/music"
+                        "🧑🏻‍💻 ɢɪᴛʜᴜʙ ᴋᴀʏɴᴀᴋ ᴋᴏᴅᴜ 🧑🏻‍💻", url="https:/"
                     )
                 ]
                 
